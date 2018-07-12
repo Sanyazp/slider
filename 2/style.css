@@ -23,13 +23,13 @@ section{
 }
 
 @keyframes slider {
-    0%{
+    0%, 10%, 20%{
         background-position-x: 2400px;
     }
-    33%{
+    33%, 40%, 50%{
         background-position-x: 1600px;
     }
-    66%{
+    66%, 70%, 80%{
         background-position-x: 800px;
     }
     100%{
