@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    background: #373737;
+}
+
+section{
+    width: 800px;
+    height: 400px;
+    background-image: url("1.png");
+    animation: slider 15s linear;
+}
+
+
+
+@keyframes slider {
+0%{
+    background-image: url("1.png");
+}
+50%{
+    background-image: url("2.png");
+}
+100%{
+    background-image: url("3.png");
+}
+}
